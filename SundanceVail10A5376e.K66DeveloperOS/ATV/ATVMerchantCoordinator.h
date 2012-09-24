@@ -10,7 +10,7 @@
 @class NSArray, NSDictionary;
 
 __attribute__((visibility("hidden")))
-@interface ATVMerchantCoordinator : XXUnknownSuperclass {
+@interface ATVMerchantCoordinator : NSObject {
 	NSDictionary *_merchantsByIdentifier;	// 4 = 0x4
 	NSArray *_enabledMerchants;	// 8 = 0x8
 	NSArray *_allMerchants;	// 12 = 0xc
